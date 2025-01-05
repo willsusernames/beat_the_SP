@@ -1,3 +1,3 @@
 # Beating A Perfect Portfolio
 
-This program randomly selects 50 of 500 S&amp;P companies and creates dedicated long short, 130/30, and long-only portfolios based on regressed alphas, betas, and covariance matrices. Can you create a portfolio that beats the simulated portfolio here?
+This is a Jupyter notebook that scrapes data off of Yahoo Finance and an S&P500 tracking website. The S&P is measured by the SPY fund, which is a good reflection of the S&P performance over time. This program randomly selects 50 of 500 S&amp;P companies scraped and creates dedicated long short, 130/30, and long-only portfolios based on regressed alphas, betas, and covariance matrices. Can you create a portfolio that beats the simulated portfolio here? There is an optional area to add your own weights to dediated tickers, and the results will be graphed against the returns of SP500 and the mean-variance based portfolio simulation. 
